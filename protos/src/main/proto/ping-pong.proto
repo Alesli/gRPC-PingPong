@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package com.training.grpc;
 
-option java_multiple_files=true;
+option java_multiple_files = true;
 
 service PingPongService{
   rpc getPingPong(PingRequest) returns (PongResponse);
